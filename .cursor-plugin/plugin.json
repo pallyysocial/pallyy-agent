@@ -6,7 +6,7 @@
   "homepage": "https://pallyy.com/docs/api/mcp",
   "repository": "https://github.com/pallyysocial/pallyy-agent",
   "license": "MIT",
-  "logo": "assets/logo.svg",
+  "logo": "assets/icon.png",
   "keywords": ["pallyy", "social media scheduler", "schedule social media posts", "social media automation", "instagram", "facebook", "linkedin", "tiktok", "youtube", "pinterest", "threads", "bluesky", "google business profile", "agency", "mcp"],
   "skills": ["./skills/pallyy"],
   "mcpServers": "./.cursor-plugin/mcp.json"
