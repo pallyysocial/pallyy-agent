@@ -1,0 +1,19 @@
+{
+  "name": "pallyy",
+  "version": "1.0.0",
+  "description": "Schedule and publish social media posts from your AI agent. Pallyy's hosted MCP server lists your social sets, creates and updates draft or scheduled posts, imports media, and pins calendar notes across Instagram, Facebook, LinkedIn, TikTok, YouTube, Pinterest, Threads, Bluesky, X and Google Business Profile.",
+  "author": { "name": "Pallyy", "email": "hello@pallyy.com", "url": "https://pallyy.com" },
+  "homepage": "https://pallyy.com/docs/api/mcp",
+  "repository": "https://github.com/pallyysocial/pallyy-agent",
+  "license": "MIT",
+  "logo": "assets/logo.svg",
+  "keywords": ["pallyy", "social media scheduler", "schedule social media posts", "social media automation", "instagram", "facebook", "linkedin", "tiktok", "youtube", "pinterest", "threads", "bluesky", "google business profile", "agency", "mcp"],
+  "skills": ["./skills/pallyy"],
+  "mcpServers": {
+    "pallyy": {
+      "type": "http",
+      "url": "https://app.pallyy.com/mcp",
+      "note": "Official Pallyy MCP server (hosted, streamable HTTP). Signs in with OAuth on first connection: the agent is prompted to approve access to your Pallyy account and choose which social sets it may use. No token or local install required."
+    }
+  }
+}
